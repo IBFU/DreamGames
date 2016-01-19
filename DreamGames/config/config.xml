@@ -1,0 +1,23 @@
+<config>
+	<!-- Main config -->
+	<cfg name="DebugMode" value="1" type="Boolean" change="0" />
+	<!-- Language -->
+	<cfg name="Language" value="zh-CN" type="Language" change="1" />
+	<!-- Address config -->
+	<cfg name="Graphic" value="Graphic/" type="text" change="1" />
+	<cfg name="UI" value="UI/" type="text" change="1" />
+	<cfg name="Save" value="Save/" type="text" change="1" />
+	<cfg name="Audio" value="Audio/" type="text" change="1" />
+	<cfg name="LanguageAddress" value="language/" type="text" change="1" />
+	<!-- UI Screen config -->
+	<cfg name="initingScreen" value="initing.swf" type="text" change="1" />
+	<cfg name="loadingScreen" value="loading.swf" type="text" change="1" />
+	<cfg name="coverScreen" value="cover.swf" type="text" change="1" />
+	<cfg name="saveloadScreen" value="save.swf" type="text" change="1" />
+	<cfg name="settingScreen" value="settings.swf" type="text" change="1" />
+	<cfg name="quitingScreen" value="quiting.swf" type="text" change="1" />
+	<cfg name="AD" value="AD.swf" type="text" change="1" />
+	<!-- UI Module config -->
+	<cfg name="textbox" value="textbox.swf" type="text" change="1" />
+	
+</config>
