@@ -3,14 +3,14 @@
 	<cfg name="DebugMode" value="1" type="Boolean" change="0" />
 	<cfg name="inADSwitch" value="1" type="Boolean" change="1" />
 	<cfg name="passLoadScreen" value="1" type="Boolean" change="1" />
+	<cfg name="UIParallax" value="1" type="Boolean" change="1" />
 	<!-- Language -->
 	<cfg name="Language" value="en-US" type="Language" change="1" />
 	<!-- Address config -->
 	<cfg name="System" value="System/" type="text" change="1" />
-	<cfg name="Graphic" value="Graphic/" type="text" change="1" />
+	<cfg name="Graphic" value="Graphics/" type="text" change="1" />
 	<cfg name="Script" value="Script/" type="text" change="1" />
 	<cfg name="UI" value="UI/" type="text" change="1" />
-	<cfg name="res" value="res/" type="text" change="1" />
 	<cfg name="Save" value="Save/" type="text" change="1" />
 	<cfg name="Audio" value="Audio/" type="text" change="1" />
 	<cfg name="LanguageAddress" value="language/" type="text" change="1" />
@@ -26,6 +26,18 @@
 	<cfg name="quitingScreen" value="quiting.swf" type="text" change="1" />
 	<cfg name="ADScreen" value="AD.swf" type="text" change="1" />
 	<cfg name="inADScreen" value="inAD.swf" type="text" change="1" />
+	<!-- UI Graphic address config -->
+	<cfg name="gui" value="ui/" type="text" change="1" />
+	<cfg name="res" value="res/" type="text" change="1" />
+	<!-- UI Graphic config -->
+	<cfg name="black" value="black.png" type="text" change="1" />
+	<cfg name="cgBG" value="cgbg.png" type="text" change="1" />
+	<cfg name="coverBG" value="coverbg.png" type="text" change="1" />
+	<cfg name="loadingBG" value="loading.swf" type="text" change="1" />
+	<cfg name="saveBG" value="savebg.png" type="text" change="1" />
+	<cfg name="setBG" value="setbg.png" type="text" change="1" />
+	<cfg name="black" value="black.png" type="text" change="1" />
+	<cfg name="black" value="black.png" type="text" change="1" />
 	<!-- UI Module config -->
 	<cfg name="textbox" value="textbox.swf" type="text" change="1" />
 	
