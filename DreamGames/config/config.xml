@@ -2,13 +2,15 @@
 	<!-- Main config -->
 	<cfg name="DebugMode" value="1" type="Boolean" change="0" />
 	<cfg name="inADSwitch" value="1" type="Boolean" change="1" />
+	<cfg name="passLoadScreen" value="1" type="Boolean" change="1" />
 	<!-- Language -->
-	<cfg name="Language" value="zh-CN" type="Language" change="1" />
+	<cfg name="Language" value="en-US" type="Language" change="1" />
 	<!-- Address config -->
 	<cfg name="System" value="System/" type="text" change="1" />
 	<cfg name="Graphic" value="Graphic/" type="text" change="1" />
 	<cfg name="Script" value="Script/" type="text" change="1" />
 	<cfg name="UI" value="UI/" type="text" change="1" />
+	<cfg name="res" value="res/" type="text" change="1" />
 	<cfg name="Save" value="Save/" type="text" change="1" />
 	<cfg name="Audio" value="Audio/" type="text" change="1" />
 	<cfg name="LanguageAddress" value="language/" type="text" change="1" />
