@@ -1,7 +1,7 @@
 <config>
 	<!-- Main config -->
 	<cfg name="DebugMode" value="1" type="Boolean" change="0" />
-	<cfg name="inADSwitch" value="0" type="Boolean" change="1" />
+	<cfg name="inADSwitch" value="1" type="Boolean" change="1" />
 	<!-- Language -->
 	<cfg name="Language" value="zh-CN" type="Language" change="1" />
 	<!-- Address config -->
@@ -19,6 +19,7 @@
 	<cfg name="coverScreen" value="cover.swf" type="text" change="1" />
 	<cfg name="gameScreen" value="game.swf" type="text" change="1" />
 	<cfg name="saveloadScreen" value="save.swf" type="text" change="1" />
+	<cfg name="CGScreen" value="cg.swf" type="text" change="1" />
 	<cfg name="settingScreen" value="settings.swf" type="text" change="1" />
 	<cfg name="quitingScreen" value="quiting.swf" type="text" change="1" />
 	<cfg name="ADScreen" value="AD.swf" type="text" change="1" />

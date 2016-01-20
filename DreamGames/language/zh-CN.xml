@@ -2,6 +2,10 @@
 	<lan index="gameTitle">示例游戏</lan>
 	<lan index="start">开始游戏</lan>
 	<lan index="load">载入游戏</lan>
-	<lan index="config">设置</lan>
-	<lan index="exit">退出</lan>
+	<lan index="config">游戏设置</lan>
+	<lan index="cg">游戏ＣＧ</lan>
+	<lan index="exit">游戏退出</lan>
+	<lan index="exitText">是否退出？未保存的进度将全部丢失！</lan>
+	<lan index="yes">是</lan>
+	<lan index="no">否</lan>
 </language>
