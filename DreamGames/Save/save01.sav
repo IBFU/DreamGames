@@ -1,0 +1,16 @@
+<save>
+	<head id="1" date="2016-01-21 10:39:55" image="save01.png">这是存档的标题</head>
+	<body>
+		<schedule frame="1" step="33"/>
+	</body>
+	<extra>
+		<system name="impression" value="name1:60,name2:20,name3:-100,name4:0"/>
+		<system name="healthy" value="name1:100,name2:99,name3:100,name4:99"/>
+		<system name="magical" value="name1:100,name2:99,name3:100,name4:99"/>
+		<system name="spirity" value="name1:100,name2:99,name3:100,name4:99"/>
+		<system name="level" value="name1:1,name2:3,name3:9,name4:6"/>
+		<system name="exp" value="name1:1980081000,name2:1236017960,name3:1660019900,name4:1366055640"/>
+		<system name="store" value="10086:3,10010:99,10090:1,11010:32,11100:99,11001:9,10010:30,11001:22,10009:10"/>
+		<system name="equip" value="head:10090,body:19160,arm:13660,hand:17870,leg:16660,foot:19180,weapon:17980,shield:19980,wing:16670">
+	</extra>
+</save>

@@ -8,4 +8,17 @@
 	<lan index="exitText">是否退出？未保存的进度将全部丢失！</lan>
 	<lan index="yes">是</lan>
 	<lan index="no">否</lan>
+	<lan index="Sunday">星期日</lan>
+	<lan index="Monday">星期一</lan>
+	<lan index="Tuesday">星期二</lan>
+	<lan index="Wednesday">星期三</lan>
+	<lan index="Thursday">星期四</lan>
+	<lan index="Friday">星期五</lan>
+	<lan index="Saturday">星期六</lan>
+	<lan index="Year">年</lan>
+	<lan index="Month">月</lan>
+	<lan index="Day">日</lan>
+	<lan index="Hour">时</lan>
+	<lan index="Minute">分</lan>
+	<lan index="Second">秒</lan>
 </language>

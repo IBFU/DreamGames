@@ -8,4 +8,17 @@
 	<lan index="exitText">Are you sure to quit game? The not saved data will all be lost!</lan>
 	<lan index="yes">Yes</lan>
 	<lan index="no">No</lan>
+	<lan index="Sunday">Sunday</lan>
+	<lan index="Monday">Monday</lan>
+	<lan index="Tuesday">Tuesday</lan>
+	<lan index="Wednesday">Wednesday</lan>
+	<lan index="Thursday">Thursday</lan>
+	<lan index="Friday">Friday</lan>
+	<lan index="Saturday">Saturday</lan>
+	<lan index="Year">Year</lan>
+	<lan index="Month">Month</lan>
+	<lan index="Day">Day</lan>
+	<lan index="Hour">Hour</lan>
+	<lan index="Minute">Minute</lan>
+	<lan index="Second">Second</lan>
 </language>

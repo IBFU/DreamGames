@@ -1,0 +1,15 @@
+<cg>
+	<!--
+		tyep:类型，scense=场景，memory=回忆。
+			场景为单图png或动态图swf，点击一次后返回。
+			回忆为带剧情的多图及对话、语音，格式与Script一致，点击继续，直到遇到END()时结束并返回。
+		name:名称，显示在CG界面的名称。
+		desc:描述，鼠标移到CG上显示的描述。
+		image:CG本体，支援jpg、png、swf等格式。可自定义格式。
+	-->
+	<cg id="1" type="scense" name="cg1" desc="This is the CG1." image="scense_01.png">
+	<cg id="2" type="scense" name="cg2" desc="This is the CG2." image="scense_02.png">
+	<cg id="3" type="scense" name="cg3" desc="This is the CG3." image="scense_03.png">
+	<cg id="4" type="memory" name="me1" desc="This is the ME1." image="memory_01.swf">
+	<cg id="5" type="memory" name="me2" desc="This is the ME2." image="memory_02.swf">
+</cg>
