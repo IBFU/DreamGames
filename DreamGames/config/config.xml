@@ -40,5 +40,6 @@
 	<cfg name="black" value="black.png" type="text" change="1" />
 	<!-- UI Module config -->
 	<cfg name="textbox" value="textbox.swf" type="text" change="1" />
-	
+	<!-- Game system config -->
+	<cfg name="gameSystem" value="game_gal.swf" type="text" change="0">
 </config>

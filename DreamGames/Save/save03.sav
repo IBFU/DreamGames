@@ -1,0 +1,9 @@
+<save>
+	<head id="03" date="2016-01-22 11:40:16" image="save03.png">4</head>
+	<body>
+		<schedule script="undefined" frame="undefined" step="undefined" />
+	</body>
+	<extra>
+		<system name="impression" value="name1:60,name2:20,name3:-100,name4:0"/>
+	</extra>
+</save>

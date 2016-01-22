@@ -1,7 +1,7 @@
 <save>
 	<head id="1" date="2016-01-21 10:39:55" image="save01.png">这是存档的标题01</head>
 	<body>
-		<body name="schedule" value="script:1,frame:1,step:33"/>
+		<schedule script="1" frame="1" step="33"/>
 	</body>
 	<extra>
 		<system name="impression" value="name1:60,name2:20,name3:-100,name4:0"/>
