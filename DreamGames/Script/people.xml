@@ -1,5 +1,6 @@
 <people>
 	<!--
+		tag:人物索引，用于引用人物，可与名字相同或不同
 		name:人物名（此处可用真名，在Script中使用getLanF()调取人物语言名）
 		level:等级
 		upexp:升级所需经验，按照规则：upexp * level，如：1→2:50；2→3:100；3→4:150；4→5:200。此算法可自定。
@@ -8,8 +9,9 @@
 		spirity:精神力
 		ethnicity:种族
 	-->
-	<people name="name1" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人"/>
-	<people name="name2" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人"/>
-	<people name="name3" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人"/>
-	<people name="name4" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人"/>
+	<people tag="myself" name="MySelf" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人" color="#00CCFF"/>
+	<people tag="people1" name="name1" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人" color="#FF3366"/>
+	<people tag="people2" name="name2" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人" color="#FFFF00"/>
+	<people tag="people3" name="name3" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人" color="#FF00FF"/>
+	<people tag="people4" name="name4" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人" color="#00FFFF"/>
 </people>

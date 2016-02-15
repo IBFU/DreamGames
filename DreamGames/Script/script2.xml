@@ -1,0 +1,19 @@
+<s tag="script2">
+	<c cmd="showHead" var="head2.png"/>
+	<c cmd="showPeople" var="pe1.png,pe2.png"/>
+	<c cmd="showDialog" var="[people1]\,哇，你居然在这里，找到你了！！"/>
+	<c cmd="impression" var="[people2]:20"/>
+	
+	<c cmd="effect" var="shake:100"/>
+	<c cmd="wait" var="2000"/>
+	
+	<c cmd="next" var="condition\,[people1].impression:10+:script3.xml:end1|[people1].impression:10-:script3.xml:end2|[people2].impression:10:script3.xml|else::script3.xml:end0"/>
+</s>
+
+<s tag="go3">
+	<c cmd="showHead" var="head2.png"/>
+	<c cmd="showPeople" var="pe1.png,pe2.png"/>
+	<c cmd="showDialog" var="[people1]\,这里是测试3，该结束的应该结束了。"/>
+	
+	<c cmd="next" var="script3.xml:end1"/>
+</s>

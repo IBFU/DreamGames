@@ -1,0 +1,66 @@
+<s tag="main">
+	<c cmd="playVideo" var="video1.flv"/>
+	
+	<c cmd="showBg" var="bg1.png,bg1-f.png"/>
+	<c cmd="playMusic" var="Music1.mp3"/>
+	
+	<c cmd="showHead" var="head1.png"/>
+	<c cmd="showPeople" var="pe1.png,pe2.png"/>
+	<c cmd="showDialog" var="[people1]\,世界你好，这是Dream Games -- GalGame引擎，欢迎使用！\,voice1.mp3"/>
+	
+	<c cmd="showHead" var="head2.png"/>
+	<c cmd="showDialog" var="[people2]\,你好，我是[people2]，你叫什么名字？\,voice2.mp3"/>
+	<c cmd="hideHead">
+	
+	<c cmd="showInput" var="我的名字是：\,[myself]"/>
+	
+	<c cmd="showHead" var="head1.png"/>
+	<c cmd="showDialog" var="[people1]\,哦，原来你叫[myself]呀，太好了！"/>
+	
+	<c cmd="showHead" var="head2.png"/>
+	<c cmd="showDialog" var="[people2]\,[myself]我要走了，你们好好玩，再见！"/>
+	
+	<c cmd="showPeople" var="pe1.png:left"/>
+	<c cmd="showDialog" var="[people1]\,咱们来测试选择吧！"/>
+	<c cmd="showSelect" var="[people1]\,你要去哪里？\,去1|去2|去3|去4"/>
+	
+	<c cmd="showPeople" var="pe1.png"/>
+	<c cmd="showDialog" var="[people1]\,哦，你选择了[select]，那么我们走吧！"/>
+
+	<c cmd="next" var="select\,去1\:script.xml\:go1|去2\:script.xml\:go2|去3\:script2.xml\:go3|去4\:script2.xml"/>
+</s>
+
+<s tag="go1">
+	<c cmd="showHead" var="head1.png"/>
+	<c cmd="showPeople" var="pe1.png"/>
+	<c cmd="showDialog" var="[people1]\,到了这里，我们要测试下一跳转。"/>
+	<c cmd="hideHead">
+	
+	<c cmd="showDialog" var="[myself]\,如何测试？测试什么？"/>
+	
+	<c cmd="showHead" var="head1.png"/>
+	<c cmd="showDialog" var="[people1]\,下一跳转，请确认下一跳转是script2。"/>
+	
+	<c cmd="impression" var="[people1]:10"/>
+
+	<c cmd="next" var="script2.xml"/>
+</s>
+
+<s tag="go2">
+	<c cmd="showHead" var="head1.png"/>
+	<c cmd="showPeople" var="pe1.png:600"/>
+	<c cmd="showDialog" var="[people1]\,你居然选择了这个，我生气了！"/>
+	<c cmd="showPic" var="pic1:angry.png:100,100"/>
+	<c cmd="impression" var="[people1]:-20"/>
+	<c cmd="hidePic" var="pic1"/>
+	<c cmd="hideHead">
+	
+	<c cmd="playVoice",var="sound1.mp3"/>
+	<c cmd="showDialog" var="[myself]\,抱歉。"/>
+	<c cmd="stopVoice"/>
+	
+	<c cmd="showHead" var="head1.png"/>
+	<c cmd="showDialog" var="[people1]\,算了算了，下一跳转是script2,go3，请确认。"/>
+
+	<c cmd="next" var="script2.xml:go3"/>
+</s>

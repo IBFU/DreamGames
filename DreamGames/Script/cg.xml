@@ -1,0 +1,5 @@
+<cg>
+	<cg tag="end1" name="End 1" pic="end1-1.png\,end1-2.png\,end1-3.png"/>
+	<cg tag="end2" name="End 2" pic="end2.png">
+	<cg tag="end0" name="Bad End" pic="end0-1.png\,end0-2.png"/>
+<cg>

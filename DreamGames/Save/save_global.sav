@@ -1,0 +1,15 @@
+<save>
+	<playThrough>1</playThrough>
+	<unlockCG>
+		<uc tag="end0">结局0</uc>
+		<uc tag="end1">结局1</uc>
+		<uc tag="end2">结局2</uc>
+	</unlockCG>
+	<unlockEnd>
+		<ue tag="script3.xml:end0">结局0</ue>
+		<ue tag="script3.xml:end1">结局1</ue>
+		<ue tag="script3.xml:end2">结局2</ue>
+	</unlockEnd>
+</save>
+<settings>
+</settings>
