@@ -1,0 +1,8 @@
+<save>
+	<head id="11" date="2016-02-19 14:00:01" image="save11.png">[people2]\,你好，我是[people2]，你叫什么名字？\,voice2.mp3</head>
+	<body>
+		<body name="schedule" value="script:script,tag:main,step:7"/>
+	</body>
+	<extra>
+	</extra>
+</save>

@@ -10,7 +10,7 @@
 	
 	<c cmd="showHead" var="head2.png"/>
 	<c cmd="showDialog" var="[people2]\,你好，我是[people2]，你叫什么名字？\,voice2.mp3"/>
-	<c cmd="hideHead">
+	<c cmd="hideHead"/>
 	
 	<c cmd="showInput" var="我的名字是：\,[myself]"/>
 	
@@ -34,7 +34,7 @@
 	<c cmd="showHead" var="head1.png"/>
 	<c cmd="showPeople" var="pe1.png"/>
 	<c cmd="showDialog" var="[people1]\,到了这里，我们要测试下一跳转。"/>
-	<c cmd="hideHead">
+	<c cmd="hideHead"/>
 	
 	<c cmd="showDialog" var="[myself]\,如何测试？测试什么？"/>
 	
@@ -53,7 +53,7 @@
 	<c cmd="showPic" var="pic1:angry.png:100,100"/>
 	<c cmd="impression" var="[people1]:-20"/>
 	<c cmd="hidePic" var="pic1"/>
-	<c cmd="hideHead">
+	<c cmd="hideHead"/>
 	
 	<c cmd="playVoice",var="sound1.mp3"/>
 	<c cmd="showDialog" var="[myself]\,抱歉。"/>

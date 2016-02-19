@@ -1,7 +1,7 @@
 <save>
-	<head id="1" date="2016-01-21 10:39:55" image="save01.png">这是存档的标题01</head>
+	<head id="12" date="2016-02-19 14:18:40" image="save12.png">undefined</head>
 	<body>
-		<body name="schedule" value="script:script,tag:main,step:3"/>
+		<body name="schedule" value="script:script,tag:go1,step:3"/>
 	</body>
 	<extra>
 		<system name="impression" value="people1:60,people2:20,people3:-100,people4:0"/>
@@ -11,6 +11,6 @@
 		<system name="level" value="people1:1,people2:3,people3:9,people4:6"/>
 		<system name="exp" value="people1:1980081000,people2:1236017960,people3:1660019900,people4:1366055640"/>
 		<system name="store" value="10086:3,10010:99,10090:1,11010:32,11100:99,11001:9,10010:30,11001:22,10009:10"/>
-		<system name="equip" value="head:10090,body:19160,arm:13660,hand:17870,leg:16660,foot:19180,weapon:17980,shield:19980,wing:16670">
+		<system name="equip" value="head:10090,body:19160,arm:13660,hand:17870,leg:16660,foot:19180,weapon:17980,shield:19980,wing:16670"/>
 	</extra>
 </save>

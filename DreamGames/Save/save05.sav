@@ -1,0 +1,9 @@
+<save>
+	<head id="005" date="2016-02-19 10:24:35" image="save005.png">´æµµ5</head>
+	<body>
+		<body name="schedule" value="script:undefined,tag:undefined,step:undefined"/>
+	</body>
+	<extra>
+		<system name="impression" value="name1:60,name2:20,name3:-100,name4:0"/>
+	</extra>
+</save>
