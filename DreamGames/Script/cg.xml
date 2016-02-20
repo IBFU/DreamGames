@@ -1,5 +1,15 @@
 <cg>
-	<cg tag="end1" name="End 1" pic="end1-1.png\,end1-2.png\,end1-3.png"/>
-	<cg tag="end2" name="End 2" pic="end2.png">
-	<cg tag="end0" name="Bad End" pic="end0-1.png\,end0-2.png"/>
-<cg>
+	<!--
+		type:类型，scense=场景，memory=回忆。
+			场景为单图png或动态图swf，点击一次后返回。
+			回忆为带剧情的多图及对话、语音，调取相应的结局脚本。
+		tag:标签索引，游戏中引用
+		name:名称，显示在CG界面的名称。
+		desc:描述，鼠标移到CG上显示的描述。
+		addr:CG本体，支援jpg、png、swf等格式。可自定义格式。
+	-->
+	<cg tag="end1" name="End 1" type="scense" desc="This is the CG" addr="end1-1.png\,end1-2.png\,end1-3.png"/>
+	<cg tag="end2" name="End 2" type="scense" desc="This is the CG" addr="end2.png">
+	<cg tag="end0" name="Bad End" type="scense" desc="This is the CG" addr="end0-1.png\,end0-2.png"/>
+	<cg tag="end3" name="Bad End" type="memory" desc="This is the MEM" addr="script3:end2"/>
+</cg>
