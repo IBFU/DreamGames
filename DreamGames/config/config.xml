@@ -18,6 +18,7 @@
 	<!-- NameSpace config -->
 	<cfg name="ns_save" value="sav" type="text" change="1" />
 	<cfg name="ns_script" value="xml" type="text" change="1" />
+	<cfg name="ns_script_list" value="__load" type="text" change="1" />
 	<!-- UI Screen config -->
 	<cfg name="initingScreen" value="initing.swf" type="text" change="1" />
 	<cfg name="loadingScreen" value="loading.swf" type="text" change="1" />

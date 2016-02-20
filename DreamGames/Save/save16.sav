@@ -1,0 +1,16 @@
+<save>
+	<head id="16" date="2016-02-20 14:47:25" image="save16.png">undefined</head>
+	<body>
+		<body name="schedule" value="script:script3,tag:end0,step:0"/>
+	</body>
+	<extra>
+		<system name="impression" value="people1:60,people2:20,people3:-100,people4:0"/>
+		<system name="healthy" value="people1:100,people2:99,people3:100,people4:99"/>
+		<system name="magical" value="people1:100,people2:99,people3:100,people4:99"/>
+		<system name="spirity" value="people1:100,people2:99,people3:100,people4:99"/>
+		<system name="level" value="people1:1,people2:3,people3:9,people4:6"/>
+		<system name="exp" value="people1:1980081000,people2:1236017960,people3:1660019900,people4:1366055640"/>
+		<system name="store" value="10086:3,10010:99,10090:1,11010:32,11100:99,11001:9,10010:30,11001:22,10009:10"/>
+		<system name="equip" value="head:10090,body:19160,arm:13660,hand:17870,leg:16660,foot:19180,weapon:17980,shield:19980,wing:16670"/>
+	</extra>
+</save>

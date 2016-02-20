@@ -9,9 +9,9 @@
 		spirity:精神力
 		ethnicity:种族
 	-->
-	<people tag="myself" name="MySelf" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人" color="#00CCFF"/>
-	<people tag="people1" name="name1" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人" color="#FF3366"/>
-	<people tag="people2" name="name2" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人" color="#FFFF00"/>
-	<people tag="people3" name="name3" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人" color="#FF00FF"/>
-	<people tag="people4" name="name4" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人" color="#00FFFF"/>
+	<p tag="myself" name="MySelf" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人" color="#00CCFF"/>
+	<p tag="people1" name="name1" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人" color="#FF3366"/>
+	<p tag="people2" name="name2" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人" color="#FFFF00"/>
+	<p tag="people3" name="name3" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人" color="#FF00FF"/>
+	<p tag="people4" name="name4" level="1" upexp="50" healthy="100" magical="100" spirity="100" ethnicity="人" color="#00FFFF"/>
 </people>

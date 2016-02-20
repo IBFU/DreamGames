@@ -1,0 +1,4 @@
+<load>
+	<l name="people" script="people"/>
+	<l name="cg" script="cg"/>
+</load>

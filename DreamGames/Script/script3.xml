@@ -5,7 +5,7 @@
 	
 	<c cmd="system" var="equip.swf"/>
 	
-	<c cmd="next" var="script3.xml:end0"/>
+	<c cmd="next" var="script3:end0"/>
 </s>
 
 <s tag="end0">
@@ -21,7 +21,7 @@
 	<c cmd="showPeople" var="pe1.png,pe2.png"/>
 	<c cmd="showDialog" var="[people1]\,这里是结局1，是个不错的结局。"/>
 	
-	<c cmd="unlockCG" var="end1"/>
+	<c cmd="unlock" var="CG:end1"/>
 	<c cmd="end"/>
 </s>
 
@@ -30,6 +30,6 @@
 	<c cmd="showPeople" var="pe1.png,pe2.png"/>
 	<c cmd="showDialog" var="[people1]\,这里是结局2，是个大团圆的结局。"/>
 	
-	<c cmd="unlockCG" var="end2"/>
+	<c cmd="unlock" var="CG:end2"/>
 	<c cmd="end"/>
 </s>
