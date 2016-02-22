@@ -2,6 +2,7 @@
 	<lan index="gameTitle">Example Game</lan>
 	<lan index="start">Start game</lan>
 	<lan index="load">Load game</lan>
+	<lan index="save">Save game</lan>
 	<lan index="config">Settings</lan>
 	<lan index="cg">Extra</lan>
 	<lan index="exit">Quit game</lan>
@@ -21,4 +22,12 @@
 	<lan index="Hour">Hour</lan>
 	<lan index="Minute">Minute</lan>
 	<lan index="Second">Second</lan>
+	
+	<lan index="menu">Menu</lan>
+	<lan index="config_dialog">Settings</lan>
+	<lan index="skip">Skip</lan>
+	<lan index="auto">Auto</lan>
+	<lan index="history">History</lan>
+	<lan index="load_dialog">Load</lan>
+	<lan index="save_dialog">Save</lan>
 </language>

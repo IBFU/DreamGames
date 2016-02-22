@@ -2,6 +2,7 @@
 	<lan index="gameTitle">示例游戏</lan>
 	<lan index="start">开始游戏</lan>
 	<lan index="load">载入游戏</lan>
+	<lan index="save">保存游戏</lan>
 	<lan index="config">游戏设置</lan>
 	<lan index="cg">游戏ＣＧ</lan>
 	<lan index="exit">游戏退出</lan>
@@ -21,4 +22,12 @@
 	<lan index="Hour">时</lan>
 	<lan index="Minute">分</lan>
 	<lan index="Second">秒</lan>
+	
+	<lan index="menu">菜单</lan>
+	<lan index="config_dialog">设置</lan>
+	<lan index="skip">跳过</lan>
+	<lan index="auto">自动</lan>
+	<lan index="history">历史</lan>
+	<lan index="load_dialog">读档</lan>
+	<lan index="save_dialog">存档</lan>
 </language>
