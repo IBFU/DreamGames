@@ -28,6 +28,7 @@
 	<cfg name="CGScreen" value="cg.swf" type="text" change="1" />
 	<cfg name="settingScreen" value="settings.swf" type="text" change="1" />
 	<cfg name="quitingScreen" value="quiting.swf" type="text" change="1" />
+	<cfg name="backTitleScreen" value="backTitle.swf" type="text" change="1" />
 	<cfg name="ADScreen" value="AD.swf" type="text" change="1" />
 	<cfg name="inADScreen" value="inAD.swf" type="text" change="1" />
 	<cfg name="dialogScreen" value="dialog.swf" type="text" change="1" />
@@ -51,6 +52,13 @@
 	<cfg name="dialog" value="dialog.png" type="text" change="1" />
 	<!-- UI Module config -->
 	<cfg name="textbox" value="textbox.swf" type="text" change="1" />
+	<!-- Audio config -->
+	<cfg name="music_vol" value="50" type="text" change="1" />
+	<cfg name="voice_vol" value="50" type="text" change="1" />
+	<cfg name="sound_vol" value="50" type="text" change="1" />
+	<cfg name="music_addr" value="music/" type="text" change="1" />
+	<cfg name="voice_addr" value="voice/" type="text" change="1" />
+	<cfg name="sound_addr" value="sound/" type="text" change="1" />
 	<!-- Game system config -->
 	<cfg name="gameSystem" value="game_gal.swf" type="text" change="0">
 </config>

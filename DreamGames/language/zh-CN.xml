@@ -23,6 +23,9 @@
 	<lan index="Minute">分</lan>
 	<lan index="Second">秒</lan>
 	
+	<lan index="back_title">返回</lan>
+	<lan index="back_sure_title">返回首页？</lan>
+	<lan index="back_sure_text">是否返回首页？未保存的进度将全部丢失！</lan>
 	<lan index="menu">菜单</lan>
 	<lan index="config_dialog">设置</lan>
 	<lan index="skip">跳过</lan>
