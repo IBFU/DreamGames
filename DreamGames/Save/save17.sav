@@ -4,5 +4,6 @@
 		<body name="schedule" value="script:script,tag:main,step:7"/>
 	</body>
 	<extra>
+		<system name="myself" value="ÎÒ×Ô¼º"/>
 	</extra>
 </save>
