@@ -1,0 +1,66 @@
+<index="UU" value="U and U is U[uu]">
+<index="Name RR" value="RRRR">
+<tag="uu" name="Name UU" color="#FF3366">
+<tag="rr" name="[Lan=Name RR]" color="#FFFFFF">
+
+var="[Lan=UU][rr][font color='000000']123456[/font]"
+
+var->[Lan=UU][rr][font color='000000']123456[/font]-replace->[Lan=UU[[rr[[font color='000000'[123456[/font[-split->Lan=uu,,rr,font color='000000',123456,/font,
+	Lan=UU-split->Lan,UU->getLanF("UU")->U and U is U[uu]
+	rr->getNameSpace("rr")-><font color="#FFFFFF">Name RR</font>
+	font color='000000'-><font color='000000'>-replace-><font color=\"000000\">
+	/font-></font>
+	
+var->U and U is U[uu]<font color=\"#FFFFFF\">Name RR</font>-replace->U and U is U[uu[<font color=\"#FFFFFF\">Name RR</font>-split->U and U is U,uu,<font color=\"#FFFFFF\">Name RR</font><font color=\"000000\">123456</font>
+	uu->getNameSpace("uu")-><font color="#FF3366">Name UU</font>
+	
+
+var="[Lan=UU][rr][font color='000000']123456[/font]"
+vars->[Lan=UU][rr][font color='000000']123456[/font]
+	-replace->[Lan=UU[[rr[[font color='000000'[123456[/font[
+	-split->Lan=uu,,rr,font color='000000',123456,/font,
+first for:
+	vars=Lan=UU,,rr,font color='000000',123456,/font,
+		Lan=UU-split->Lan,UU->getLanF("UU")->U and U is U[uu]
+	vars=U and U is U[uu],,rr,font color='000000',123456,/font,
+		rr->getNameSpace("rr")-><font color="#FFFFFF">[Lan=Name RR]</font>
+	vars=U and U is U[uu],,<font color="#FFFFFF">[Lan=Name RR]</font>,font color='000000',123456,/font,
+		font color='000000'-><font color='000000'>-replace-><font color=\"000000\">
+		/font-></font>
+	vars=U and U is U[uu],,<font color=\"#FFFFFF\">[Lan=Name RR]</font>,<font color=\"000000\">,123456,</font>,
+	var=U and U is U[uu]<font color=\"#FFFFFF\">[Lan=Name RR]</font><font color=\"000000\">123456</font>
+
+var="U and U is U[uu]<font color="#FFFFFF">[Lan=Name RR]</font><font color=\"000000\">123456</font>"
+vars->U and U is U[uu]<font color="#FFFFFF">[Lan=Name RR]</font><font color=\"000000\">123456</font>
+second for:
+	vars=U and U is U,uu,<font color="#FFFFFF">,Lan=Name RR,</font><font color=\"000000\">123456</font>
+		Lan=Name RR-split->Lan,Name RR-getLanF("Name RR")->UUUU
+	vars=U and U is U,uu,<font color="#FFFFFF">,UUUU,</font><font color=\"000000\">123456</font>
+		uu->getNameSpace("uu")-><font color=\"#FF3366\">Name UU</font>
+	vars=U and U is U,<font color=\"#FF3366\">Name UU</font>,<font color=\"#FFFFFF\">,UUUU,</font><font color=\"000000\">123456</font>
+	var=U and U is U<font color=\"#FF3366\">Name UU</font><font color=\"#FFFFFF\">UUUU</font><font color=\"#000000\">123456</font>
+	    U and U is U<font color=\"#FF3366\">Name UU</font><font color=\"#FFFFFF\">RRRR</font><font color=\"#000000\">123456</font>
+
+
+
+循环：
+	替换]为[，分离[，得到数组
+	遍历数组：
+		Lan=开头匹配语言
+		font开头匹配<font 字体属性>
+		/font开头匹配</font>
+		非Lan=开头匹配命名空间
+	遍历数组：
+		是否还有[]？
+			是：
+				循环
+			否：
+				数组内容添加入String变量
+
+
+	
+
+
+
+
+	
