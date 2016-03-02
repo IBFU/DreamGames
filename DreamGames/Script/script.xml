@@ -1,72 +1,72 @@
 <s tag="main" title="MAIN1">
-	<c cmd="playVideo" var="video1.flv"/>
+	<c cmd="playVideo">video1.flv</c>
 	
-	<c cmd="showBg" var="Bliss.png"/>
-	<c cmd="playMusic" var="西国の海妖 - 化鹤归.mp3"/>
+	<c cmd="showBg">Bliss.png</c>
+	<c cmd="playMusic">西国の海妖 - 化鹤归.mp3</c>
 	
-	<c cmd="showPeople" var="pe1.png:left,pe2.png:right"/>
-	<c cmd="showDialog" var="[people1]|head1.png|世界你好，这是Dream Games -- GalGame引擎，欢迎使用！|voice1.mp3"/>
-	<c cmd="dialogContinue" var="策划：寂寞丨如烟灬|童可可 - 花下舞剑.mp3"/>
-	<c cmd="dialogContinue" var="设计：寂寞丨如烟灬|voice1.mp3"/>
-	<c cmd="dialogContinue" var="程序：寂寞丨如烟灬|voice1.mp3"/>
+	<c cmd="showPeople">pe1.png:left,pe2.png:right</c>
+	<c cmd="showDialog">[people1]|head1.png|世界你好，这是Dream Games -- GalGame引擎，欢迎使用！|voice1.mp3</c>
+	<c cmd="dialogContinue">策划：寂寞丨如烟灬|童可可 - 花下舞剑.mp3</c>
+	<c cmd="dialogContinue">设计：寂寞丨如烟灬|voice1.mp3</c>
+	<c cmd="dialogContinue">程序：寂寞丨如烟灬|voice1.mp3</c>
 	
-	<c cmd="showHead" var="head2.png"/>
-	<c cmd="showDialog" var="[people2]|head2.png|你好，我是[people2]，你叫什么名字？|童可可 - 花下舞剑.mp3"/>
+	<c cmd="showHead">head2.png</c>
+	<c cmd="showDialog">[people2]|head2.png|你好，我是[people2]，你叫什么名字？|童可可 - 花下舞剑.mp3</c>
 	<c cmd="hideHead"/>
 	
 	<c cmd="stopMusic"/>
 	
-	<c cmd="showInput" var="我的名字是：|head1.png|[myself]"/>
+	<c cmd="showInput">我的名字是：|head1.png|[myself]</c>
 	
-	<c cmd="showHead" var="head1.png"/>
-	<c cmd="showDialog" var="[people1]|head1.png|哦，原来你叫[myself]呀，太好了！|童可可 - 花下舞剑.mp3"/>
+	<c cmd="showHead">head1.png</c>
+	<c cmd="showDialog">[people1]|head1.png|哦，原来你叫[myself]呀，太好了！|童可可 - 花下舞剑.mp3</c>
 	
-	<c cmd="showHead" var="head2.png"/>
-	<c cmd="showDialog" var="[people2]|head2.png|[myself]我要走了，你们好好玩，再见！"/>
+	<c cmd="showHead">head2.png</c>
+	<c cmd="showDialog">[people2]|head2.png|[myself]我要走了，你们好好玩，再见！</c>
 	
-	<c cmd="playMusic" var="西国の海妖 - 化鹤归.mp3"/>
+	<c cmd="playMusic">西国の海妖 - 化鹤归.mp3</c>
 	
-	<c cmd="showPeople" var="pe1.png:left"/>
-	<c cmd="showDialog" var="[people1]|head1.png|咱们来测试选择吧！"/>
-	<c cmd="showSelect" var="[people1]|head1.png|你要去哪里？|去1|去2|去3|去4"/>
+	<c cmd="showPeople">pe1.png:left</c>
+	<c cmd="showDialog">[people1]|head1.png|咱们来测试选择吧！</c>
+	<c cmd="showSelect">[people1]|head1.png|你要去哪里？|去1|去2|去3|去4</c>
 	
-	<c cmd="playSound" var="西国の海妖 - 与你最后的夏天.mp3:1"/>
+	<c cmd="playSound">西国の海妖 - 与你最后的夏天.mp3:1</c>
 	
-	<c cmd="showPeople" var="pe1.png"/>
-	<c cmd="showDialog" var="[people1]|head1.png|哦，你选择了[select]，那么我们走吧！"/>
+	<c cmd="showPeople">pe1.png</c>
+	<c cmd="showDialog">[people1]|head1.png|哦，你选择了[select]，那么我们走吧！</c>
 
-	<c cmd="next" var="select|去1:script:go1|去2:script:go2|去3:script2:go3|去4:script2"/>
+	<c cmd="next">select|去1:script:go1|去2:script:go2|去3:script2:go3|去4:script2</c>
 </s>
 
 <s tag="go1" title="GO1">
-	<c cmd="showHead" var="head1.png"/>
-	<c cmd="showPeople" var="pe1.png"/>
-	<c cmd="showDialog" var="[people1]|head1.png|到了这里，我们要测试下一跳转。"/>
+	<c cmd="showHead">head1.png</c>
+	<c cmd="showPeople">pe1.png</c>
+	<c cmd="showDialog">[people1]|head1.png|到了这里，我们要测试下一跳转。</c>
 	<c cmd="hideHead"/>
 	
-	<c cmd="showDialog" var="[myself]|head1.png|如何测试？测试什么？"/>
+	<c cmd="showDialog">[myself]|head1.png|如何测试？测试什么？</c>
 	
-	<c cmd="showHead" var="head1.png"/>
-	<c cmd="showDialog" var="[people1]|head1.png|下一跳转，请确认下一跳转是script2。"/>
+	<c cmd="showHead">head1.png</c>
+	<c cmd="showDialog">[people1]|head1.png|下一跳转，请确认下一跳转是script2。</c>
 	
-	<c cmd="variable" var="[people1].impression:10"/>
+	<c cmd="variable">[people1].impression:10</c>
 
-	<c cmd="next" var="script2"/>
+	<c cmd="next">script2</c>
 </s>
 
 <s tag="go2" title="GO2">
-	<c cmd="showHead" var="head1.png"/>
-	<c cmd="showPeople" var="pe1.png:600"/>
-	<c cmd="showDialog" var="[people1]|head1.png|你居然选择了这个，我生气了！"/>
-	<c cmd="showPic" var="pic1:angry.png:100,100"/>
-	<c cmd="variable" var="[people1].impression:-20"/>
-	<c cmd="hidePic" var="pic1"/>
+	<c cmd="showHead">head1.png</c>
+	<c cmd="showPeople">pe1.png:600</c>
+	<c cmd="showDialog">[people1]|head1.png|你居然选择了这个，我生气了！</c>
+	<c cmd="showPic">pic1:angry.png:100,100</c>
+	<c cmd="variable">[people1].impression:-20</c>
+	<c cmd="hidePic">pic1</c>
 	<c cmd="hideHead"/>
 	
-	<c cmd="showDialog" var="[myself]|head1.png|抱歉。"/>
+	<c cmd="showDialog">[myself]|head1.png|抱歉。</c>
 	
-	<c cmd="showHead" var="head1.png"/>
-	<c cmd="showDialog" var="[people1]|head1.png|算了算了，下一跳转是script2,go3，请确认。"/>
+	<c cmd="showHead">head1.png</c>
+	<c cmd="showDialog">[people1]|head1.png|算了算了，下一跳转是script2,go3，请确认。</c>
 
-	<c cmd="next" var="script2:go3"/>
+	<c cmd="next">script2:go3</c>
 </s>

@@ -1,35 +1,35 @@
 <s tag="script3" title="SCRIPT3">
-	<c cmd="showHead" var="head2.png"/>
-	<c cmd="showPeople" var="pe1.png"/>
-	<c cmd="showDialog" var="[people1]|这里是脚本3的默认项，很快就要到结局了，不要着急哦！"/>
+	<c cmd="showHead">head2.png</c>
+	<c cmd="showPeople">pe1.png</c>
+	<c cmd="showDialog">[people1]|这里是脚本3的默认项，很快就要到结局了，不要着急哦！</c>
 	
-	<c cmd="system" var="equip.swf"/>
+	<c cmd="system">equip.swf</c>
 	
-	<c cmd="next" var="script3:end0"/>
+	<c cmd="next">script3:end0</c>
 </s>
 
 <s tag="end0" title="END0">
-	<c cmd="showHead" var="head2.png"/>
-	<c cmd="showPeople" var="pe1.png,pe2.png"/>
-	<c cmd="showDialog" var="[people1]|这里是结局0，是个坏的结局。"/>
+	<c cmd="showHead">head2.png</c>
+	<c cmd="showPeople">pe1.png,pe2.png</c>
+	<c cmd="showDialog">[people1]|这里是结局0，是个坏的结局。</c>
 	
 	<c cmd="end"/>
 </s>
 
 <s tag="end1" title="END1">
-	<c cmd="showHead" var="head2.png"/>
-	<c cmd="showPeople" var="pe1.png,pe2.png"/>
-	<c cmd="showDialog" var="[people1]|这里是结局1，是个不错的结局。"/>
+	<c cmd="showHead">head2.png</c>
+	<c cmd="showPeople">pe1.png,pe2.png</c>
+	<c cmd="showDialog">[people1]|这里是结局1，是个不错的结局。</c>
 	
-	<c cmd="unlock" var="CG:end1"/>
+	<c cmd="unlock">CG:end1</c>
 	<c cmd="end"/>
 </s>
 
 <s tag="end2" title="END2">
-	<c cmd="showHead" var="head2.png"/>
-	<c cmd="showPeople" var="pe1.png,pe2.png"/>
-	<c cmd="showDialog" var="[people1]|这里是结局2，是个大团圆的结局。"/>
+	<c cmd="showHead">head2.png</c>
+	<c cmd="showPeople">pe1.png,pe2.png</c>
+	<c cmd="showDialog">[people1]|这里是结局2，是个大团圆的结局。</c>
 	
-	<c cmd="unlock" var="CG:end2"/>
+	<c cmd="unlock">CG:end2</c>
 	<c cmd="end"/>
 </s>
