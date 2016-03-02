@@ -5,7 +5,7 @@
 	<c cmd="playMusic">西国の海妖 - 化鹤归.mp3</c>
 	
 	<c cmd="showPeople">pe1.png:left,pe2.png:right</c>
-	<c cmd="showDialog">[people1]|head1.png|世界你好，这是Dream Games -- GalGame引擎，欢迎使用！|voice1.mp3</c>
+	<c cmd="showDialog">[people1]|head1.png|[font face="宋体"]世界你好，这是Dream Games -- GalGame引擎，欢迎使用！[/font]|voice1.mp3</c>
 	<c cmd="dialogContinue">策划：寂寞丨如烟灬|童可可 - 花下舞剑.mp3</c>
 	<c cmd="dialogContinue">设计：寂寞丨如烟灬|voice1.mp3</c>
 	<c cmd="dialogContinue">程序：寂寞丨如烟灬|voice1.mp3</c>
