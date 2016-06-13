@@ -4,6 +4,7 @@
 	<cfg name="inADSwitch" value="1" type="Boolean" change="1" />
 	<cfg name="passLoadScreen" value="1" type="Boolean" change="1" />
 	<cfg name="UIParallax" value="1" type="Boolean" change="1" />
+	<cfg name="fullScreen" value="0" type="Boolean" change="1" />
 	<!-- Language -->
 	<cfg name="Language" value="zh-CN" type="Language" change="1" />
 	<!-- Address config -->

@@ -1,7 +1,7 @@
 <s tag="script3" title="SCRIPT3">
 	<c cmd="showHead">head2.png</c>
 	<c cmd="showPeople">pe1.png</c>
-	<c cmd="showDialog">[people1]|这里是脚本3的默认项，很快就要到结局了，不要着急哦！</c>
+	<c cmd="showDialog">[people1]||这里是脚本3的默认项，很快就要到结局了，不要着急哦！</c>
 	
 	<c cmd="system">equip.swf</c>
 	
@@ -11,7 +11,7 @@
 <s tag="end0" title="END0">
 	<c cmd="showHead">head2.png</c>
 	<c cmd="showPeople">pe1.png,pe2.png</c>
-	<c cmd="showDialog">[people1]|这里是结局0，是个坏的结局。</c>
+	<c cmd="showDialog">[people1]||这里是结局0，是个坏的结局。</c>
 	
 	<c cmd="end"/>
 </s>
@@ -19,7 +19,7 @@
 <s tag="end1" title="END1">
 	<c cmd="showHead">head2.png</c>
 	<c cmd="showPeople">pe1.png,pe2.png</c>
-	<c cmd="showDialog">[people1]|这里是结局1，是个不错的结局。</c>
+	<c cmd="showDialog">[people1]||这里是结局1，是个不错的结局。</c>
 	
 	<c cmd="unlock">CG:end1</c>
 	<c cmd="end"/>
@@ -28,7 +28,7 @@
 <s tag="end2" title="END2">
 	<c cmd="showHead">head2.png</c>
 	<c cmd="showPeople">pe1.png,pe2.png</c>
-	<c cmd="showDialog">[people1]|这里是结局2，是个大团圆的结局。</c>
+	<c cmd="showDialog">[people1]||这里是结局2，是个大团圆的结局。</c>
 	
 	<c cmd="unlock">CG:end2</c>
 	<c cmd="end"/>

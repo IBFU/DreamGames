@@ -1,7 +1,7 @@
 <s tag="script2" title="SCRIPT2">
 	<c cmd="showHead">head2.png</c>
 	<c cmd="showPeople">pe1.png,pe2.png</c>
-	<c cmd="showDialog">[people1]|哇，你居然在这里，找到你了！！</c>
+	<c cmd="showDialog">[people1]||哇，你居然在这里，找到你了！！</c>
 	<c cmd="variable">[people2].impression:20</c>
 	
 	<c cmd="effect">shake:100</c>
@@ -13,7 +13,7 @@
 <s tag="go3" title="GO3">
 	<c cmd="showHead">head2.png</c>
 	<c cmd="showPeople">pe1.png,pe2.png</c>
-	<c cmd="showDialog">[people1]|这里是测试3，该结束的应该结束了。</c>
+	<c cmd="showDialog">[people1]||这里是测试3，该结束的应该结束了。</c>
 	
 	<c cmd="next">script3:end1</c>
 </s>

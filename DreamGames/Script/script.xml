@@ -12,6 +12,9 @@
 	
 	<c cmd="showHead">head2.png</c>
 	<c cmd="showDialog">[people2]|head2.png|你好，我是[people2]，你叫什么名字？|童可可 - 花下舞剑.mp3</c>
+	<c cmd="dialogContinue">你好，我是[people2]，你叫什么名字？|童可可 - 花下舞剑.mp3</c>
+	<c cmd="dialogContinue">你好，我是[people2]，你叫什么名字？|童可可 - 花下舞剑.mp3</c>
+	<c cmd="dialogContinue">你好，我是[people2]，你叫什么名字？|童可可 - 花下舞剑.mp3</c>
 	<c cmd="hideHead"/>
 	
 	<c cmd="stopMusic"/>
@@ -25,6 +28,7 @@
 	<c cmd="showDialog">[people2]|head2.png|[myself]我要走了，你们好好玩，再见！</c>
 	
 	<c cmd="playMusic">西国の海妖 - 化鹤归.mp3</c>
+	<c cmd="pause"/>
 	
 	<c cmd="showPeople">pe1.png:left</c>
 	<c cmd="showDialog">[people1]|head1.png|咱们来测试选择吧！</c>
@@ -34,6 +38,12 @@
 	
 	<c cmd="showPeople">pe1.png</c>
 	<c cmd="showDialog">[people1]|head1.png|哦，你选择了[select]，那么我们走吧！</c>
+	
+	<c cmd="showDialog">[people1]|head1.png|等等，再选择一次，最终结果以第二次为准！</c>
+	<c cmd="showSelect">[people1]|head1.png|你要去哪里？|去1|去2|去3|去4</c>
+	
+	<c cmd="showPeople">pe1.png</c>
+	<c cmd="showDialog">[people1]|head1.png|哦，你这次选择了[select]，那么我们走吧！</c>
 
 	<c cmd="next">select|去1:script:go1|去2:script:go2|去3:script2:go3|去4:script2</c>
 </s>

@@ -4,7 +4,7 @@
 		<body name="schedule" value="script:script,tag:main,step:1"/>
 	</body>
 	<extra>
-		<system name="myself" value="[font color='#00FFFF']我自己[/font]"/>
+		<system name="myself" value="[font color=&quot;#00FFFF&quot;]我自己[/font]"/>
 		<system name="impression" value="people1:60,people2:20,people3:-100,people4:0"/>
 		<system name="healthy" value="people1:100,people2:99,people3:100,people4:99"/>
 		<system name="magical" value="people1:100,people2:99,people3:100,people4:99"/>
