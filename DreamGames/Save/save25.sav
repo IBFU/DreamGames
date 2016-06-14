@@ -1,0 +1,13 @@
+<save>
+	<head id="25" date="2016-06-14 15:48:06" image="save25.png">undefined</head>
+	<body>
+		<body name="schedule" value="script:script,tag:main,step:21"/>
+		<body name="game_preload_background" value="Bliss.png"/>
+		<body name="game_preload_music" value="西国の海妖 - 化鹤归.mp3"/>
+		<body name="game_preload_people" value="pe1.png"/>
+		<body name="game_preload_sound" value="西国の海妖 - 与你最后的夏天.mp3:1"/>
+	</body>
+	<extra>
+		<system name="myself" value="[font color=&quot;#00CCFF&quot;]MySelf111[/font]"/>
+	</extra>
+</save>

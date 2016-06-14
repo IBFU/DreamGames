@@ -10,6 +10,8 @@
 	<lan index="exitText">是否退出？未保存的进度将全部丢失！</lan>
 	<lan index="yes">是</lan>
 	<lan index="no">否</lan>
+	<lan index="ok">确认</lan>
+	<lan index="reset">重置</lan>
 	<lan index="Sunday">星期日</lan>
 	<lan index="Monday">星期一</lan>
 	<lan index="Tuesday">星期二</lan>

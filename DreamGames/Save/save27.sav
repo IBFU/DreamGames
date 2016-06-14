@@ -1,0 +1,14 @@
+<save>
+	<head id="27" date="2016-06-14 16:16:23" image="save27.png">undefined</head>
+	<body>
+		<body name="schedule" value="script:script,tag:main,step:17"/>
+		<body name="schedule" value="script:script,tag:main,step:13"/>
+		<body name="game_preload_background" value="Bliss.png"/>
+		<body name="game_preload_music" value="Î÷¹ú¤Îº£Ñı - »¯º×¹é.mp3"/>
+		<body name="game_preload_people" value="pe1.png:left"/>
+		<body name="game_preload_pic" value="undefined"/>
+	</body>
+	<extra>
+		<system name="myself" value="[font color="#00CCFF"]¸ò¸ò[/font]"/>
+	</extra>
+</save>

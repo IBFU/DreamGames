@@ -33,8 +33,10 @@
 	<cfg name="ADScreen" value="AD.swf" type="text" change="1" />
 	<cfg name="inADScreen" value="inAD.swf" type="text" change="1" />
 	<cfg name="dialogScreen" value="dialog.swf" type="text" change="1" />
+	<cfg name="InputFormScreen" value="inputForm.swf" type="text" change="1" />
 	<cfg name="historyScreen" value="history.swf" type="text" change="1" />
 	<cfg name="SelectFormScreen" value="selectForm.swf" type="text" change="1" />
+	<cfg name="SelectFormScreenGame" value="selectFormGame.swf" type="text" change="1" />
 	<!-- UI Graphic address config -->
 	<cfg name="gui" value="ui/" type="text" change="1" />
 	<cfg name="res" value="res/" type="text" change="1" />

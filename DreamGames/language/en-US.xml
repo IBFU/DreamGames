@@ -9,6 +9,8 @@
 	<lan index="exitText">Are you sure to quit game? The not saved data will all be lost!</lan>
 	<lan index="yes">Yes</lan>
 	<lan index="no">No</lan>
+	<lan index="ok">OK</lan>
+	<lan index="reset">Reset</lan>
 	<lan index="Sunday">Sunday</lan>
 	<lan index="Monday">Monday</lan>
 	<lan index="Tuesday">Tuesday</lan>
