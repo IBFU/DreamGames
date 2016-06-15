@@ -1,10 +1,10 @@
 <save>
-	<head id="28" date="2016-06-14 16:27:54" image="save28.png">undefined</head>
+	<head id="29" date="2016-06-16 01:02:10" image="save29.png">undefined</head>
 	<body>
-		<body name="schedule" value="script:script,tag:main,step:17"/>
+		<body name="schedule" value="script:script,tag:main,step:22"/>
 		<body name="game_preload_background" value="Bliss.png"/>
 		<body name="game_preload_music" value="西国の海妖 - 化鹤归.mp3"/>
-		<body name="game_preload_people" value="pe1.png:left"/>
+		<body name="game_preload_people" value="pe1.png"/>
 		<body name="game_preload_pic" value="undefined"/>
 		<body name="game_preload_select" value="去1"/>
 	</body>

@@ -58,7 +58,7 @@
 	
 	<c cmd="variable">[people1].impression:10</c>
 
-	<c cmd="next">script2</c>
+	<c cmd="next">script2:script2</c>
 </s>
 
 <s tag="go2" title="GO2">
