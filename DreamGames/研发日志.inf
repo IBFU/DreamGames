@@ -4,13 +4,53 @@
 [研发需求]
 +优化选项UI。
 +变量空间匹配功能。
-+修复一直按住下一步按键时，选项无法弹出的问题。
++游戏主体模块：
+	playVideo
+	stopVideo
+	*showBg
+	*hideBg
+	*showHead
+	*hideHead
+	showPeople
+	hidePeople
+	showPic
+	hidePic
+	*playMusic
+	*stopMusic
+	*playVoice
+	*stopVoice
+	*playSound
+	*stopSound
+	*showDialog
+	*hideDialog
+	*dialogContinue
+	*showInput
+	*hideInput
+	*showSelect
+	*hideSelect
+	system
+	effect
+	*wait
+	*variable
+	unlock
+	*next
+	*end
+	*continue
+	*pause
+
 
 [引擎研发]
 0.2.1 20160616
+-加入存档时保存所选项的功能。
+-加入等待指定秒数功能。
+-加入变量保存功能，支持加减乘除运算。
+-加入脚本指令：修改文本速度（1~10）（实验性功能）。
 -修正脚本跳跃不正确的问题（问题出在Preload这里）。
 -修正一直按住下一步按键时，选项被略过的问题。
--加入存档时保存所选项的功能。
+-修正一直按住下一步按键时，选项无法弹出的问题。
+-修正多次重复游戏时，会出现在读取输入数据时导致文字卡住的问题（"被多次替换成&quot;的问题）。
+-修正保存数字变量时，会导致出现undefined的问题（将Number型数字变为String型）。
+-修正连续执行快速指令（如变量、连续切换背景、连续播放BGM等）时，会造成的卡死在当前步数的问题（下一步数与步数指令判定执行同步）。
 -调整命名空间算法，加入强制性匹配替换内容。
 -调整下一步触发按钮，支持更多按键。
 

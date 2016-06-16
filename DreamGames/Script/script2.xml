@@ -5,7 +5,7 @@
 	<c cmd="variable">[people2].impression:20</c>
 	
 	<c cmd="effect">shake:100</c>
-	<c cmd="wait">2000</c>
+	<c cmd="wait">20</c>
 	
 	<c cmd="next">condition|[people1].impression:10+:script3:end1|[people1].impression:10-:script3:end2|[people2].impression:10:script3|else::script3:end0</c>
 </s>

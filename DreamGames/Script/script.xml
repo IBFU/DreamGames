@@ -2,6 +2,14 @@
 	<c cmd="playVideo">video1.flv</c>
 	
 	<c cmd="showBg">Bliss.png</c>
+	<c cmd="wait">2</c>
+	<c cmd="showBg">Bliss.png</c>
+	<c cmd="wait">2</c>
+	<c cmd="showBg">Bliss.png</c>
+	<c cmd="wait">2</c>
+	<c cmd="showBg">Bliss.png</c>
+	<c cmd="wait">2</c>
+	<c cmd="showBg">Bliss.png</c>
 	<c cmd="playMusic">西国の海妖 - 化鹤归.mp3</c>
 	
 	<c cmd="showPeople">pe1.png:left,pe2.png:right</c>
@@ -11,6 +19,7 @@
 	<c cmd="dialogContinue">程序：寂寞丨如烟灬|voice1.mp3</c>
 	
 	<!--<c cmd="showHead">head2.png</c>-->
+	<c cmd="dialogSpeed">10</c>
 	<c cmd="showDialog">[people2]|head2.png|你好，我是[people2]，你叫什么名字？|童可可 - 花下舞剑.mp3</c>
 	<!--<c cmd="hideHead"/>
 	
@@ -18,7 +27,17 @@
 	
 	<c cmd="showInput">我的名字是：|[myself]</c>
 	
-	<!--<c cmd="showHead">head1.png</c>
+	<!--<c cmd="showHead">head1.png</c>-->
+	<c cmd="wait">30</c>
+	<c cmd="variable">impression:+20</c>
+	<c cmd="variable">impression:10</c>
+	<c cmd="variable">impression:+10</c>
+	<c cmd="variable">impression:-10</c>
+	<c cmd="variable">impression:*10</c>
+	<c cmd="variable">impression:/10</c>
+	<c cmd="variable">impression:del</c>
+	<c cmd="variable">impression:100</c>
+	<c cmd="dialogSpeed"></c>
 	<c cmd="showDialog">[people1]|head1.png|哦，原来你叫[myself]呀，太好了！|童可可 - 花下舞剑.mp3</c>
 	
 	<!--<c cmd="showHead">head2.png</c>-->

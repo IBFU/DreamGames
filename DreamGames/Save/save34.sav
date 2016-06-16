@@ -1,0 +1,15 @@
+<save>
+	<head id="34" date="2016-06-16 11:15:46" image="save34.png">undefined</head>
+	<body>
+		<body name="schedule" value="script:script,tag:main,step:38"/>
+		<body name="game_preload_background" value="Bliss.png"/>
+		<body name="game_preload_music" value="西国の海妖 - 化鹤归.mp3"/>
+		<body name="game_preload_people" value="pe1.png"/>
+		<body name="game_preload_select" value="去1"/>
+		<body name="game_preload_pic" value="undefined"/>
+	</body>
+	<extra>
+		<system name="myself" value="[font color=&quot;#00CCFF&quot;]MySelf[/font]"/>
+		<system name="impression" value="100"/>
+	</extra>
+</save>

@@ -64,5 +64,7 @@
 	<cfg name="voice_addr" value="voice/" type="text" change="1" />
 	<cfg name="sound_addr" value="sound/" type="text" change="1" />
 	<!-- Game system config -->
-	<cfg name="gameSystem" value="game_gal.swf" type="text" change="0">
+	<cfg name="gameSystem" value="game_gal.swf" type="text" change="0"/>
+	<!-- Game main config -->
+	<cfg name="game_dialog_text_speed" value="2" type="text" change="1"/>
 </config>
