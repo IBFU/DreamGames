@@ -1,3 +1,4 @@
+<!--<language font="微软雅黑 Light">-->
 <language font="微软雅黑 Light">
 	<lan index="gameTitle">示例游戏</lan>
 	<lan index="start">开始游戏</lan>
@@ -11,6 +12,7 @@
 	<lan index="yes">是</lan>
 	<lan index="no">否</lan>
 	<lan index="ok">确认</lan>
+	<lan index="empty">空白</lan>
 	<lan index="reset">重置</lan>
 	<lan index="Sunday">星期日</lan>
 	<lan index="Monday">星期一</lan>
@@ -36,4 +38,6 @@
 	<lan index="history">历史</lan>
 	<lan index="load_dialog">读档</lan>
 	<lan index="save_dialog">存档</lan>
+	<lan index="page_prev">上一页</lan>
+	<lan index="page_next">下一页</lan>
 </language>

@@ -10,6 +10,7 @@
 	<lan index="yes">Yes</lan>
 	<lan index="no">No</lan>
 	<lan index="ok">OK</lan>
+	<lan index="empty">Empty</lan>
 	<lan index="reset">Reset</lan>
 	<lan index="Sunday">Sunday</lan>
 	<lan index="Monday">Monday</lan>
@@ -32,4 +33,6 @@
 	<lan index="history">History</lan>
 	<lan index="load_dialog">Load</lan>
 	<lan index="save_dialog">Save</lan>
+	<lan index="page_prev">Prev</lan>
+	<lan index="page_next">Next</lan>
 </language>

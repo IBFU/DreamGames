@@ -54,6 +54,8 @@
 	<cfg name="setBG" value="setbg.png" type="text" change="1" />
 	<cfg name="black" value="black.png" type="text" change="1" />
 	<cfg name="dialog" value="dialog.png" type="text" change="1" />
+	<!-- System data config -->
+	<cfg name="masSaveNumber" value="99" type="text" change="1" />
 	<!-- UI Module config -->
 	<cfg name="textbox" value="textbox.swf" type="text" change="1" />
 	<!-- Audio config -->
