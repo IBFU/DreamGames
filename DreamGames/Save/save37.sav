@@ -1,10 +1,10 @@
 <save>
-	<head id="36" date="2016-06-17 18:24:52" image="save36.png">哦，原来你叫&lt;font color="#00CCFF"&gt;MySelf&lt;/font&gt;呀，太好了！</head>
+	<head id="37" date="2016-06-17 18:27:44" image="save37.png">哦，你选择了去1，那么我们走吧！</head>
 	<body>
-		<body name="schedule" value="script:script,tag:main,step:29"/>
+		<body name="schedule" value="script:script,tag:main,step:38"/>
 		<body name="game_preload_background" value="Bliss.png"/>
 		<body name="game_preload_music" value="西国の海妖 - 化鹤归.mp3"/>
-		<body name="game_preload_people" value="pe1.png:left,pe2.png:right"/>
+		<body name="game_preload_people" value="pe1.png"/>
 		<body name="game_preload_pic" value="undefined"/>
 		<body name="game_preload_select" value="去1"/>
 	</body>
