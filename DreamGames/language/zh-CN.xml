@@ -37,7 +37,9 @@
 	<lan index="auto">自动</lan>
 	<lan index="history">历史</lan>
 	<lan index="load_dialog">读档</lan>
+	<lan index="load_text">确认读取存档？未保存的进度将全部丢失！</lan>
 	<lan index="save_dialog">存档</lan>
+	<lan index="save_text">确认保存存档？这将覆盖已有的存档数据！</lan>
 	<lan index="page_prev">上一页</lan>
 	<lan index="page_next">下一页</lan>
 </language>

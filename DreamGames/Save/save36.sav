@@ -1,0 +1,15 @@
+<save>
+	<head id="36" date="2016-06-17 18:08:45" image="save36.png">哦，原来你叫&lt;font color="#00FFFF"&gt;我自己&lt;/font&gt;呀，太好了！</head>
+	<body>
+		<body name="schedule" value="script:script,tag:main,step:29"/>
+		<body name="game_preload_background" value="Bliss.png"/>
+		<body name="game_preload_music" value="西国の海妖 - 化鹤归.mp3"/>
+		<body name="game_preload_people" value="pe1.png:left,pe2.png:right"/>
+		<body name="game_preload_pic" value="undefined"/>
+		<body name="game_preload_select" value="去1"/>
+	</body>
+	<extra>
+		<system name="myself" value="[font color=&quot;#00FFFF&quot;]我自己[/font]"/>
+		<system name="impression" value="100"/>
+	</extra>
+</save>
