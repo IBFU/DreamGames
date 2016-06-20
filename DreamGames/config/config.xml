@@ -27,6 +27,7 @@
 	<cfg name="gameScreen" value="game.swf" type="text" change="1" />
 	<cfg name="saveloadScreen" value="save.swf" type="text" change="1" />
 	<cfg name="CGScreen" value="cg.swf" type="text" change="1" />
+	<cfg name="ExtraScreen" value="extra.swf" type="text" change="1" />
 	<cfg name="settingScreen" value="settings.swf" type="text" change="1" />
 	<cfg name="quitingScreen" value="quiting.swf" type="text" change="1" />
 	<cfg name="backTitleScreen" value="backTitle.swf" type="text" change="1" />
@@ -48,6 +49,7 @@
 	<!-- UI Graphic config -->
 	<cfg name="black" value="black.png" type="text" change="1" />
 	<cfg name="cgBG" value="cgbg.png" type="text" change="1" />
+	<cfg name="extraBG" value="extrabg.png" type="text" change="1" />
 	<cfg name="coverBG" value="coverbg.png" type="text" change="1" />
 	<cfg name="loadingBG" value="loading.swf" type="text" change="1" />
 	<cfg name="saveBG" value="savebg.png" type="text" change="1" />
@@ -55,7 +57,7 @@
 	<cfg name="black" value="black.png" type="text" change="1" />
 	<cfg name="dialog" value="dialog.png" type="text" change="1" />
 	<!-- System data config -->
-	<cfg name="masSaveNumber" value="90" type="text" change="1" />
+	<cfg name="maxSaveNumber" value="90" type="text" change="1" />
 	<!-- UI Module config -->
 	<cfg name="textbox" value="textbox.swf" type="text" change="1" />
 	<!-- Audio config -->

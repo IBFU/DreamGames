@@ -1,0 +1,16 @@
+<save>
+	<head id="0" date="2016-06-20 15:19:00" image="undefined">这是全局存档</head>
+	<body>
+		<body name="playThrough" value="1"/>
+		<body name="unlockCG" value="结局0|结局1|结局2"/>
+		<body name="unlockEnd" value="结局0:script3.xml:end0|结局1:script3.xml:end1|结局2:script3.xml:end2"/>
+	</body>
+	<extra>
+		<system name="global.ExtraVariable" value="0001"/>
+	</extra>
+	<settings>
+		<settings name="music_vol" value="50"/>
+		<settings name="voice_vol" value="50"/>
+		<settings name="sound_vol" value="50"/>
+	</settings>
+</save>
