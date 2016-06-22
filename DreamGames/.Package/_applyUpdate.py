@@ -8,7 +8,7 @@ import urllib2
 import httplib
 import linecache
 import function as f
-import config as config
+import config as c
 from ftplib import FTP
 
 os.chdir('../')

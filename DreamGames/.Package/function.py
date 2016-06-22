@@ -182,10 +182,12 @@ def uploadUpdPackage():
 	upload('.Package\\packages\\','%s' %(updList[len(updList)-1]))
 
 def uploadUpdDatabase():
+	getVersion()
 	#strHtml = urllib2.urlopen(addrAddress).read()
 	strHtml = urllib2.urlopen('%supd_database.php?state=updversion&mainVersion=%s&buildVersion=%s&dateVersion=%s&versionName=%s' %(addrAddress,versionList['mainVersion'],versionList['buildVersion'],versionList['dateVersion'],versionList['versionName'])).read()
 	print strHtml
 
 def applyUpdDatabase():
+	getVersion()
 	strHtml = urllib2.urlopen('%supd_database.php?state=applyupdate&mainVersion=%s&buildVersion=%s&dateVersion=%s&versionName=%s' %(addrAddress,versionList['mainVersion'],versionList['buildVersion'],versionList['dateVersion'],versionList['versionName'])).read()
 	print strHtml

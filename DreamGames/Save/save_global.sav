@@ -1,10 +1,10 @@
 <save>
-	<head id="0" date="2016-06-20 17:07:55" image="undefined"/>
+	<head id="0" date="2016-06-22 20:41:49" image="undefined"/>
 	<body>
-		<body name="playThrough" value="1"/>
 		<body name="unlockCG" value="结局0|结局1|结局2"/>
 		<body name="unlockEnd" value="结局0:script3.xml:end0|结局1:script3.xml:end1|结局2:script3.xml:end2"/>
 		<body name="maxSavePage" value="5"/>
+		<body name="playThrough" value="2"/>
 	</body>
 	<extra>
 		<system name="global.ExtraVariable" value="0001"/>
