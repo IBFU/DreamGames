@@ -1,15 +1,18 @@
 <save>
-	<playThrough>1</playThrough>
-	<unlockCG>
-		<uc tag="end0">结局0</uc>
-		<uc tag="end1">结局1</uc>
-		<uc tag="end2">结局2</uc>
-	</unlockCG>
-	<unlockEnd>
-		<ue tag="script3.xml:end0">结局0</ue>
-		<ue tag="script3.xml:end1">结局1</ue>
-		<ue tag="script3.xml:end2">结局2</ue>
-	</unlockEnd>
+	<head id="0" date="2016-06-20 17:07:55" image="undefined"/>
+	<body>
+		<body name="playThrough" value="1"/>
+		<body name="unlockCG" value="结局0|结局1|结局2"/>
+		<body name="unlockEnd" value="结局0:script3.xml:end0|结局1:script3.xml:end1|结局2:script3.xml:end2"/>
+		<body name="maxSavePage" value="5"/>
+	</body>
+	<extra>
+		<system name="global.ExtraVariable" value="0001"/>
+		<system name="global.impression" value="20"/>
+	</extra>
+	<config>
+		<config name="music_vol" value="50"/>
+		<config name="voice_vol" value="50"/>
+		<config name="sound_vol" value="50"/>
+	</config>
 </save>
-<settings>
-</settings>

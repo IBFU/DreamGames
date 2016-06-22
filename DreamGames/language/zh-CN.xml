@@ -6,6 +6,7 @@
 	<lan index="save">保存游戏</lan>
 	<lan index="config">游戏设置</lan>
 	<lan index="cg">游戏ＣＧ</lan>
+	<lan index="extra">更多</lan>
 	<lan index="exit">游戏退出</lan>
 	<lan index="back">返回</lan>
 	<lan index="exitText">是否退出？未保存的进度将全部丢失！</lan>
