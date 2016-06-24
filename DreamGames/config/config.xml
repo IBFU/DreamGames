@@ -22,6 +22,7 @@
 	<cfg name="ns_script_list" value="__load" type="text" change="1" />
 	<!-- UI Screen config -->
 	<cfg name="initingScreen" value="initing.swf" type="text" change="1" />
+	<cfg name="updatingScreen" value="update.swf" type="text" change="1" />
 	<cfg name="loadingScreen" value="loading.swf" type="text" change="1" />
 	<cfg name="coverScreen" value="cover.swf" type="text" change="1" />
 	<cfg name="gameScreen" value="game.swf" type="text" change="1" />

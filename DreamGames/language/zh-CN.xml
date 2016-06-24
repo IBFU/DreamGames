@@ -43,4 +43,10 @@
 	<lan index="save_text">确认保存存档？这将覆盖已有的存档数据！</lan>
 	<lan index="page_prev">上一页</lan>
 	<lan index="page_next">下一页</lan>
+	
+	<lan index="update_now">正在更新</lan>
+	<lan index="update_now_desc">这可能需要一点时间，坐和放宽。</lan>
+	<lan index="update_download">正在下载文件</lan>
+	<lan index="update_config">正在配置数据</lan>
+	<lan index="update_finish">正在完成安装</lan>
 </language>
