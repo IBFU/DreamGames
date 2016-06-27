@@ -191,3 +191,13 @@ def applyUpdDatabase():
 	getVersion()
 	strHtml = urllib2.urlopen('%supd_database.php?state=applyupdate&mainVersion=%s&buildVersion=%s&dateVersion=%s&versionName=%s' %(addrAddress,versionList['mainVersion'],versionList['buildVersion'],versionList['dateVersion'],versionList['versionName'])).read()
 	print strHtml
+
+def revokeUpdDatabase():
+	getVersion()
+	strHtml = urllib2.urlopen('%supd_database.php?state=revokeupdate&mainVersion=%s&buildVersion=%s&dateVersion=%s&versionName=%s' %(addrAddress,versionList['mainVersion'],versionList['buildVersion'],versionList['dateVersion'],versionList['versionName'])).read()
+	print strHtml
+
+def revokeUpdDatabaseV(mainV,buildV,dateV,vName):
+	#getVersion()
+	strHtml = urllib2.urlopen('%supd_database.php?state=revokeupdate&mainVersion=%s&buildVersion=%s&dateVersion=%s&versionName=%s' %(addrAddress,mainV,buildV,dateV,vName)).read()
+	print strHtml

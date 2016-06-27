@@ -3,6 +3,7 @@
 	<cfg name="DebugMode" value="1" type="Boolean" change="0" />
 	<cfg name="inADSwitch" value="1" type="Boolean" change="1" />
 	<cfg name="passLoadScreen" value="1" type="Boolean" change="1" />
+	<cfg name="passUpdateScreen" value="1" type="Boolean" change="1" />
 	<cfg name="UIParallax" value="1" type="Boolean" change="1" />
 	<cfg name="fullScreen" value="0" type="Boolean" change="1" />
 	<!-- Language -->
