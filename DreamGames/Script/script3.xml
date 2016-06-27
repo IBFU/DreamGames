@@ -13,7 +13,7 @@
 	<c cmd="showPeople">pe1.png,pe2.png</c>
 	<c cmd="showDialog">[people1]||这里是结局0，是个坏的结局。</c>
 	
-	<c cmd="end"/>
+	<c cmd="die"/>
 </s>
 
 <s tag="end1" title="END1">
