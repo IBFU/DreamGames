@@ -1,5 +1,5 @@
 <save>
-	<head id="0" date="2016-06-24 17:15:55" image="undefined"/>
+	<head id="0" date="2016-06-27 11:09:27" image="undefined"/>
 	<body>
 		<body name="unlockCG" value="结局0|结局1|结局2"/>
 		<body name="unlockEnd" value="结局0:script3.xml:end0|结局1:script3.xml:end1|结局2:script3.xml:end2"/>
