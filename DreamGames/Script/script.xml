@@ -1,6 +1,6 @@
 <s tag="main" title="MAIN1">
 	<c cmd="playVideo">video1.flv</c>
-	
+	<c cmd="showPeople">pe1.png:rgdfg</c>
 	<c cmd="showBg">Bliss.png</c>
 	<c cmd="wait">2</c>
 	<c cmd="showBg">Bliss.png</c>
