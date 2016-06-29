@@ -1,0 +1,13 @@
+<save>
+	<head id="44" date="2016-06-29 12:13:07" image="save44.png">MAIN1 - &lt;font face="宋体"&gt;世界你好，这是Dream Games -- GalGame引擎，欢迎使用！&lt;/font&gt;</head>
+	<body>
+		<body name="schedule" value="script:script,tag:main,step:13"/>
+		<body name="game_preload_dialog" value=""/>
+		<body name="game_preload_people" value="pe1.png:left|pe2.png:right"/>
+		<body name="game_preload_background" value="Bliss.png"/>
+		<body name="game_preload_music" value="西国の海妖 - 化鹤归.mp3"/>
+		<body name="game_preload_head" value="head1.png"/>
+	</body>
+	<extra>
+	</extra>
+</save>

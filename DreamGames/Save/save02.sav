@@ -1,7 +1,16 @@
 <save>
-	<head id="02" date="2016-06-17 13:55:18" image="save02.png">undefined</head>
+	<head id="02" date="2016-06-29 17:07:06" image="save02.png">MAIN1 - 你好，我是&lt;font color="#FFFF00"&gt;name2&lt;/font&gt;，你叫什么名字？</head>
 	<body>
-		<body name="schedule" value="script:undefined,tag:undefined,step:undefined"/>
+		<body name="schedule" value="script:script,tag:main,step:20"/>
+		<body name="game_preload_dialog" value="&lt;font color=&quot;#003366&quot;&gt;name1&lt;/font&gt;
+&lt;font face=&quot;宋体&quot;&gt;世界你好，这是Dream Games -- GalGame引擎，欢迎使用！&lt;/font&gt;
+策划：寂寞丨如烟灬
+设计：寂寞丨如烟灬"/>
+		<body name="game_preload_people" value="pe1.png:left|pe2.png:right"/>
+		<body name="game_preload_background" value="Bliss.png"/>
+		<body name="game_preload_music" value="西国の海妖 - 化鹤归.mp3"/>
+		<body name="game_preload_head" value="head2.png"/>
+		<body name="game_preload_pic" value=""/>
 	</body>
 	<extra>
 	</extra>

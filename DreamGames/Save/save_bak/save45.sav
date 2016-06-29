@@ -1,5 +1,5 @@
 <save>
-	<head id="01" date="2016-06-29 16:51:53" image="save01.png">MAIN1 - &lt;font face="宋体"&gt;世界你好，这是Dream Games -- GalGame引擎，欢迎使用！&lt;/font&gt;</head>
+	<head id="45" date="2016-06-29 16:40:35" image="save45.png">MAIN1 - &lt;font face="宋体"&gt;世界你好，这是Dream Games -- GalGame引擎，欢迎使用！&lt;/font&gt;</head>
 	<body>
 		<body name="schedule" value="script:script,tag:main,step:16"/>
 		<body name="game_preload_dialog" value="&lt;font color=&quot;#003366&quot;&gt;name1&lt;/font&gt;

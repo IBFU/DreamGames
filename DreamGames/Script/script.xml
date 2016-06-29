@@ -1,6 +1,6 @@
 <s tag="main" title="MAIN1">
 	<c cmd="playVideo">video1.flv</c>
-	<c cmd="showPeople">pe1.png:rgdfg</c>
+	<c cmd="showPeople">pe1.png</c>
 	<c cmd="showBg">Bliss.png</c>
 	<c cmd="wait">2</c>
 	<c cmd="showBg">Bliss.png</c>
@@ -12,11 +12,13 @@
 	<c cmd="showBg">Bliss.png</c>
 	<c cmd="playMusic">西国の海妖 - 化鹤归.mp3</c>
 	
-	<c cmd="showPeople">pe1.png:left,pe2.png:right</c>
+	<c cmd="showPeople">pe1.png:left|pe2.png:right</c>
 	<c cmd="showDialog">[people1]|head1.png|[font face="宋体"]世界你好，这是Dream Games -- GalGame引擎，欢迎使用！[/font]|voice1.mp3</c>
 	<c cmd="dialogContinue">策划：寂寞丨如烟灬|童可可 - 花下舞剑.mp3</c>
+	<c cmd="showPic">123.jpg:100,200</c>
 	<c cmd="dialogContinue">设计：寂寞丨如烟灬|voice1.mp3</c>
 	<c cmd="dialogContinue">程序：寂寞丨如烟灬|voice1.mp3</c>
+	<c cmd="hidePic"/>
 	
 	<!--<c cmd="showHead">head2.png</c>-->
 	<c cmd="dialogSpeed">10</c>
@@ -37,6 +39,7 @@
 	<c cmd="variable">impression:/10</c>
 	<c cmd="variable">impression:del</c>
 	<c cmd="variable">impression:100</c>
+	<c cmd="hidePeople"/>
 	<c cmd="dialogSpeed"></c>
 	<c cmd="showDialog">[people1]|head1.png|哦，原来你叫[myself]呀，太好了！|童可可 - 花下舞剑.mp3</c>
 	
@@ -52,7 +55,7 @@
 	
 	<c cmd="playSound">西国の海妖 - 与你最后的夏天.mp3:1</c>
 	
-	<c cmd="showPeople">pe1.png</c>
+	<c cmd="showPeople">pe1.png|pe3.png</c>
 	<c cmd="showDialog">[people1]|head1.png|哦，你选择了[select]，那么我们走吧！</c>
 	
 	<c cmd="showDialog">[people1]|head1.png|等等，再选择一次，最终结果以第二次为准！</c>
