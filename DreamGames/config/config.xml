@@ -35,6 +35,7 @@
 	<cfg name="backTitleScreen" value="backTitle.swf" type="text" change="1" />
 	<cfg name="ADScreen" value="AD.swf" type="text" change="1" />
 	<cfg name="inADScreen" value="inAD.swf" type="text" change="1" />
+	<cfg name="imenuScreen" value="imenu.swf" type="text" change="1" />
 	<cfg name="dialogScreen" value="dialog.swf" type="text" change="1" />
 	<cfg name="peopleScreen" value="people.swf" type="text" change="1" />
 	<cfg name="pictureScreen" value="picture.swf" type="text" change="1" />
